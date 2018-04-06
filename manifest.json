@@ -1,0 +1,17 @@
+{
+	"manifest_version" : 2,
+	
+	"name": "Movietrack",
+	"description": "It is a movie track chrome extension",
+	"version": "1.0",
+	
+	 "browser_action": {
+    "default_icon": "icon.png",
+	"default_title": "Click here!"
+	},
+	"background":{
+	"scripts": ["script.js"]
+	},
+  "permissions": ["tabs","storage","http://*/*", "https://*/*"]
+ 
+}
